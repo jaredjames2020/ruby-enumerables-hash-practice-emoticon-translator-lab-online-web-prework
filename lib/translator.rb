@@ -22,9 +22,8 @@ end
 def get_japanese_emoticon(file_path, english_emoticon)
   #code goes here
   emotions = load_library(file_path)
-  binding.pry
-  
   emotions.each do |key, v|
+    binding.pry
     if key[v].include == (english_emoticon)
       v.value
     binding.pry
@@ -35,7 +34,7 @@ def get_japanese_emoticon(file_path, english_emoticon)
 
   
   #eng = load_library(english_emoticon)[:get_emoticon][english_emoticon]
-  #eng
+  #enge
   #binding.pry
 end
 
