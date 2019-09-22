@@ -24,10 +24,10 @@ def get_japanese_emoticon(file_path, english_emoticon)
   emotions = load_library(file_path)
   emotions.each do |key, v|
     binding.pry
-    if key[v].include == (english_emoticon)
-      v.value
-    binding.pry
-    end
+    # if key[v].include == (english_emoticon)
+    #   v.value
+    # binding.pry
+    # end
   end
     #binding.pry
   #use value to ID key and return 2 value
