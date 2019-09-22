@@ -28,6 +28,7 @@ def get_japanese_emoticon(file_path = './lib/emoticons.yml', english_emoticon)
       v.value
     #binding.pry
     end
+  end
     #binding.pry
   #use value to ID key and return 2 value
 
