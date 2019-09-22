@@ -22,6 +22,10 @@ end
 def get_japanese_emoticon(file_path = './lib/emoticons.yml', english_emoticon)
   #code goes here
   load_library(file_path)
+  binding.pry
+  
+  
+  
   #eng = load_library(english_emoticon)[:get_emoticon][english_emoticon]
   #eng
   #binding.pry
