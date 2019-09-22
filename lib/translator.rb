@@ -25,6 +25,7 @@ def get_japanese_emoticon(file_path, english_emoticon)
   if emotions[:get_emoticon] == english_emoticon
     emotions[:get_emoticon][english_emoticon]
   end
+  emotions[:get_emoticon][english_emoticon]
 end
 
 def get_english_meaning
