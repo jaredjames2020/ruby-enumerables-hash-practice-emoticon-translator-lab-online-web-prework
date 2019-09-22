@@ -24,7 +24,7 @@ def get_japanese_emoticon(file_path = './lib/emoticons.yml', english_emoticon)
   emotions = load_library(file_path)
   
   emotions.each do |key, v|
-    if key[value].include?(english_emoticon)
+    if key[v].include?(english_emoticon)
       v.value
     binding.pry
     end
