@@ -22,6 +22,8 @@ end
 def get_japanese_emoticon(file_path, english_emoticon)
   #code goes here
   emotions = load_library(file_path)
+  emotions[:get_emoticon].each do |k,v| 
+    binding.pry
   if emotions[:get_emoticon] == english_emoticon
     emotions[:get_emoticon][english_emoticon]
   end
