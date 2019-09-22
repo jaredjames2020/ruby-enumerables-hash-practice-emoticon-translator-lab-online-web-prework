@@ -24,11 +24,10 @@ def get_japanese_emoticon(file_path, english_emoticon)
   emotions = load_library(file_path)
   emotions[:get_emoticon].each do |k,v| 
     if k == english_emoticon
-     emotions[:get_emoticon][english_emoticon]
-    else 
-      ""
+     return emotions[:get_emoticon][english_emoticon]
    end
   end
+  "Sorry"
   emotions[:get_emoticon][english_emoticon]
 end
 
