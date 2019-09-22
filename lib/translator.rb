@@ -24,7 +24,7 @@ def get_japanese_emoticon(file_path, english_emoticon)
   emotions = load_library(file_path)
   emotions.each do |key, v|
     if key[v].include == (english_emoticon)
-      binding.pry
+      #binding.pry
       v.value
     binding.pry
     end
