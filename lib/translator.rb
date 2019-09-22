@@ -24,6 +24,7 @@ def get_japanese_emoticon(file_path, english_emoticon)
   emotions = load_library(file_path)
   if emotions[:get_emoticon] == english_emoticon
     emotions[:get_emoticon][english_emoticon]
+  end
 end
 
 def get_english_meaning
