@@ -26,7 +26,7 @@ def get_japanese_emoticon(file_path, english_emoticon)
     if k == english_emoticon
       # v
       # binding.pry
-     return emotions[:get_emoticon][english_emoticon]
+     emotions[:get_emoticon][english_emoticon]
     #binding.pry
    end
   end
