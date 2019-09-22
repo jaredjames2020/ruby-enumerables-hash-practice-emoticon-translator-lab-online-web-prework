@@ -23,42 +23,15 @@ def get_japanese_emoticon(file_path, english_emoticon)
   #code goes here
   emotions = load_library(file_path)
   emotions.each do |key, v|
-    binding.pry
     if key[v].include == (english_emoticon)
+      binding.pry
       v.value
     binding.pry
     end
   end
-    #binding.pry
-  #use value to ID key and return 2 value
 
-  
-  #eng = load_library(english_emoticon)[:get_emoticon][english_emoticon]
-  #eng
-  #binding.pry
 end
 
 def get_english_meaning
   # code goes here
 end
-
-
-
-
-
-
-
-
-    
-    
-# def load_library
-#   # code goes here
-# end
-
-# def get_japanese_emoticon
-#   # code goes here
-# end
-
-# def get_english_meaning
-#   # code goes here
-# end
