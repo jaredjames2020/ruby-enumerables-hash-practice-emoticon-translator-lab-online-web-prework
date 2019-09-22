@@ -27,7 +27,7 @@ def get_japanese_emoticon(file_path, english_emoticon)
       #binding.pry
       v.value
     #binding.pry
-    end
+    #end
   end
 
 end
