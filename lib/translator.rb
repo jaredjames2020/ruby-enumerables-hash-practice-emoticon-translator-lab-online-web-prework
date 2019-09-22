@@ -23,8 +23,9 @@ def get_japanese_emoticon(file_path = './lib/emoticons.yml', english_emoticon)
   #code goes here
   emotions = load_library(file_path)
   
-  emotions.each do |key, value|
-    
+  emotions.each do |key, v|
+    if key[value].include?(english_emoticon)
+      v.value
     binding.pry
     end
   
@@ -32,7 +33,7 @@ def get_japanese_emoticon(file_path = './lib/emoticons.yml', english_emoticon)
   
   
   
-  binding.pry
+  #binding.pry
   #use value to ID key and return 2 value
 
   
